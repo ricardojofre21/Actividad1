@@ -1,0 +1,12 @@
+<!-- <h1>Lista de personas</h1>
+<hr>
+<p> <b>Nombre completo:</b>  {{nombre}} {{apellido}}  </p>
+<p><b> Rut:</b>  {{rut}}</p>
+<p> <b>Edad:</b>  {{edad}} años</p> -->
+<div class="estilo">{{mensaje}} a Angular cli</div>
+<ul *ngFor="let dato of datos">
+    <li>{{dato.nombre}}</li>
+    <li>{{dato.apellido}}</li>
+    <li>{{dato.rut}}</li>
+    <li>{{dato.edad}}</li>
+</ul>
